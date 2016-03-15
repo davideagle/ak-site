@@ -64,7 +64,7 @@ aside {
 }
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: rgba(198, 150, 51, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -150,7 +150,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/texturebg.jpg');
   text-align: center;
   color: white;
 }
