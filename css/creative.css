@@ -11,6 +11,7 @@ body {
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-color: black;
 }
 hr {
   border-color: #f05f40;
@@ -150,7 +151,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/texturebg.jpg');
+  /*background-image: url('../img/texturebg.jpg');*/
   background-color: black;
   text-align: center;
   color: white;
