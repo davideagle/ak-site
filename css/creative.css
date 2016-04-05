@@ -64,7 +64,7 @@ aside {
 }
 .navbar-default {
   background-color: white;
-  border-color: rgba(198, 150, 51, 0.05);
+  border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -84,7 +84,7 @@ aside {
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -151,6 +151,7 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/texturebg.jpg');
+  background-color: black;
   text-align: center;
   color: white;
 }
@@ -402,3 +403,27 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+.footer-nav {
+  float: left;
+  margin: 0;
+}
+.footer-nav > li {
+  float: left;
+}
+.footer-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-left {
+  float: left !important;
+}
+.footer-right {
+  float: right !important;
+  margin-right: -15px;
+}
+.footer-right ~ .navbar-right {
+  margin-right: 0;
+}
+
