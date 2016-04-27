@@ -46,26 +46,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" data-target="#mainCarousel" data-slide-to="0">Alexander Kirchner</a>
+                <a class="navbar-brand page-scroll" data-toggle="tab" href="#home">Alexander Kirchner</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about" data-target="#mainCarousel" data-slide-to="1">Collections</a>
+                        <a data-toggle="tab" href="#collections">Collections</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services"  data-target="#mainCarousel" data-slide-to="2">Collaborations</a>
+                        <a data-toggle="tab" href="#collaborations">Collaborations</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio"  data-target="#mainCarousel" data-slide-to="3">Projects</a>
+                        <a data-toggle="tab" href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact"  data-target="#mainCarousel" data-slide-to="4">Shop</a>
+                        <a data-toggle="tab" href="#shop">Shop</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact" data-target="#mainCarousel" data-slide-to="5">About</a>
+                        <a data-toggle="tab" href="#about">About</a>
                     </li>
                 </ul>
             </div>
@@ -78,22 +78,24 @@
         <div class="header-content-inner">
           <div class="container-fluid">
             <div class="row">
-               <div id="mainCarousel" class="carousel" data-ride="carousel" data-interval="false">
-                 <div class="carousel-inner" role="listbox">
+               <div class="tab-content">
+
                    <!-- / Front page slide-start -->
-                   <div id="frontpageCarousel" class="carousel slide" data-ride="carousel" data-interval="0.5">
+                   <div id="home" class="tab-pane fade in active">
+                   <div id="frontpageCarousel" class="carousel slide" data-ride="carousel">
                      <div class="carousel-inner" role="listbox">
-                        <div class="item active" style="position:relative;">
-                          <img src="img/portfolio/DSC_0238-1.jpg" alt="Chania">
+                        <div class="item active">
+                          <img style="position:relative;" src="img/portfolio/DSC_0238-1.jpg" alt="Chania">
                         </div>
-                        <div class="item" style="position:relative;">
-                          <img src="img/portfolio/DSC_0238-1.jpg" alt="Chania">
+                        <div class="item">
+                          <img style="position:relative;" src="img/portfolio/DSC_0238-1.jpg" alt="Chania">
                         </div>
                      </div>
                    </div>
+                   </div>
                    
                    <!-- / Collections page slide-start -->
-                   <div class="item">
+                   <div id="collections" class="tab-pane fade">
                      <div class="container-fluid">
                        <div class="row">
                          <div class="col-md-4">Menu
@@ -105,23 +107,23 @@
                      </div>
                    </div>
                    <!-- / Collaborations page slide-start -->
-                   <div class="item">
+                   <div id="collaborations" class="tab-pane fade">
                      This is Collaborations slide
                    </div>
                    <!-- / Projects page slide-start -->
-                   <div class="item">
+                   <div id="projects" class="tab-pane fade">
                      This is Projects slide
                    </div>
                    <!-- / Shop page slide-start -->
-                   <div class="item">
+                   <div id="shop" class="tab-pane fade">
                      This is Shop slide
                    </div>
                    <!-- / About page slide-start -->
-                   <div class="item">
+                   <div id="about" class="tab-pane fade">
                      Alexander Kirchner has been working as a freelance designer, stylist and producer - including sewing and knitting his own designs for a number of years. Alexander has collaborated with other designers, the music industry, and artists of all genres, in designing, producing and styling one of a kind, elite projects for individual customers and high-end production companies. From creating unique wedding dresses to authentic costumes for music videos, Alexander Kirchner has had his hand in almost every aspect of fashion - and he now looks to extend his scope as a head designer of his own brand; ALEXANDER KIRCHNER
                    </div>
                    <!-- / second slid-end -->
-                 </div>
+
                </div>
             </div>
           </div>
