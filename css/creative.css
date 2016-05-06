@@ -102,6 +102,10 @@ aside {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+.navbar-submenu li{
+  display: block;
+  width: 100%
+}
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -429,10 +433,5 @@ body {
 }
 .footer-right ~ .navbar-right {
   margin-right: 0;
-}
-
-.testMenu {
-    clear: both;
-    float: left;    
 }
 
