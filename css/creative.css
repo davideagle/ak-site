@@ -431,3 +431,8 @@ body {
   margin-right: 0;
 }
 
+.testMenu {
+    clear: both;
+    float: left;    
+}
+
