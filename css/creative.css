@@ -436,9 +436,15 @@ body {
 }
 
 .imgAuto{
-  max-height: 80%;
-  max-height: 80%;
-  width:auto
-  height: auto
+  left:0;top:0;height: 80vh;
+  text-align: center;
 }
+
+.imgMax{
+  max-height: 80vh;
+  margin: auto;
+}
+
+
+
 
