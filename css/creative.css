@@ -104,7 +104,8 @@ aside {
 }
 .navbar-submenu li{
   display: block;
-  width: 100%
+  width: 100%;
+  font-weight: 700;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -432,5 +433,12 @@ body {
 }
 .footer-right ~ .navbar-right {
   margin-right: 0;
+}
+
+.imgAuto{
+  max-height: 80%;
+  max-height: 80%;
+  width:auto
+  height: auto
 }
 
